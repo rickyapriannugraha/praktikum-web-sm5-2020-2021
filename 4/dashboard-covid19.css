@@ -1,0 +1,116 @@
+/* Untuk diisi */
+
+h1,
+h4,
+small,
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 100px;
+    margin-top: 30px;
+    color: #ff3333;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #443b3b;
+    width: auto;
+
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: #ff3333;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    padding-top: 5px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.container {
+    border: 15px solid#333;
+    padding: 50px;
+    margin: 20px;
+}
+
+.konten {
+    border: 15px solid#333;
+    padding: 50px;
+    margin: 20px;
+    bottom: 50px;
+}
+
+header {
+    text-align: center;
+}
+
+h4 {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #443b3b;
+    width: auto%;
+    display: block;
+
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+
+p {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: #6DBBBA;
+}
+
